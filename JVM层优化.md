@@ -30,20 +30,31 @@
 -XX:+PrintGCDetails// 打印GC详情
 
 
+###实例：
 ---
 
-实例：
 -Xms128m
+
 -Xmx512m
+
 -Xmn64m
+
 -XX:PermSize=192m
+
 -XX:MaxPermSize=256m
+
 -XX:PretenureSizeThreshold=5m
+
 -XX:MaxTenuringThreshold=5
+
 -XX:+UseParNewGC
+
 -XX:+PrintGCTimeStamps
+
 -XX:+PrintGC
+
 -XX:+PrintHeapAtGC
--Xloggc:logs\zhbk_gc.log
+
+-Xloggc:logs\zhbk_gc.log  
 
 ---
