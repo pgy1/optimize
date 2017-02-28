@@ -55,6 +55,6 @@
 
 -XX:+PrintHeapAtGC
 
--Xloggc:logs\zhbk_gc.log  
+-Xloggc:logs\zhbk_gc.log
 
 ---
