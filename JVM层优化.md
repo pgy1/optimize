@@ -31,8 +31,7 @@
 
 
 ###实例：
----
-
+```java
 -Xms128m
 
 -Xmx512m
@@ -56,5 +55,4 @@
 -XX:+PrintHeapAtGC
 
 -Xloggc:logs\zhbk_gc.log
-
----
+```
